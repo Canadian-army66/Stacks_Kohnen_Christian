@@ -10,8 +10,8 @@ namespace Stacks_Kohnen_Christian
         public string Suit { get; }
         public Card(char numParam, string suitParam)
         {
-            Number = numParam
-                Suit = 
+            Number = numParam;
+            Suit = suitParam;
         }
     }
 }

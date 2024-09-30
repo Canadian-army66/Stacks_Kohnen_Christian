@@ -6,7 +6,12 @@ namespace Stacks_Kohnen_Christian
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Mommy");
+            Card[] myCardsArray = new Card[]
+            {
+                new Card('A',"Spades"),
+                new Card('Q',"Daimonds"),
+                new Card('J',"Spades"),
+            };
         }
     }
 }
