@@ -6,9 +6,9 @@ namespace Stacks_Kohnen_Christian
 {
     internal class Card
     {
-        public char Number { get; }
+        public string Number { get; }
         public string Suit { get; }
-        public Card(char numParam, string suitParam)
+        public Card(string numParam, string suitParam)
         {
             Number = numParam;
             Suit = suitParam;
